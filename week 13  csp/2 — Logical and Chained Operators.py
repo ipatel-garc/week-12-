@@ -35,14 +35,16 @@ elif 70 <= score <= 100:
     print("C")
 elif 60 <= score <= 69:
     print("D")
-elif score< 60:
+else score< 60:
     print("F")
 
 
-
-
-
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
+number = int(input("Insert your number:"))
+if 50<= number<= 100:
+    print("Your number is included.")
+else:
+    print("")
 
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
 
