@@ -28,16 +28,25 @@ print(a <= b)   # True
 4 <= 2 + 2 # True
 
 # Write 3 examples that result in True and 3 that result in False.
-5 > 2
-3 == 3
-5 == 2 + 3
-7 == 6
-12 == 6 * 3
-1 != 1
+5 > 2 # True
+3 == 3 # True
+5 == 2 + 3 # True
+7 == 6 # False
+12 == 6 * 3 # False
+1 != 1 # False
 
 
 
 # Create a simple grade-checking condition:
 
 # practice problem :
-# where a student must check if their score is greater than or equal to 60 to pass a test.# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
+# where a student must check if their score is greater than or equal to 60 to pass a test.
+
+grade = int(input("Enter your score:")) 
+if grade>= 60:
+    print("You passed the test!")
+else:
+    print("You failed.")
+ 
+
+# # The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
