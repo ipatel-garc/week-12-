@@ -20,6 +20,27 @@ print(1 < x < 20)         # True
 
 
 # Practice Problems:
+#score / grade calculator
+# if the score is between 90 and 100 inclusive, print A
+# if the score is between 80 and 89 inclusive, print B
+# if the score is between 70 and 79 inclusive, print C
+# if the score is below a 70, print F
+
+score = int(input("What is your score?:"))
+if 90 <= score <= 100:
+    print("A")
+elif 80 <= score <= 89:
+    print("B")
+elif 70 <= score <= 100:
+    print("C")
+elif 60 <= score <= 69:
+    print("D")
+elif score< 60:
+    print("F")
+
+
+
+
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
 
