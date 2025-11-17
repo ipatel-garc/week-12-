@@ -129,13 +129,18 @@ social_security_number = (123444, 444445, 5676789)
 # Practice Problems:
 
 # Create a list with 5 of your favorite foods.
+list_of_favorites= ["posole", "pizza", "pasta", "burger", "fries"]
 
 # Print the second and last item.
-
+print(list_of_favorites[1])
+print(list_of_favorites[-1])
 # Add a new item using .append().
-
+list_of_favorites.append("icecream")
+print(list_of_favorites)
 # Remove the first item using .pop(0).
-
+list_of_favorites.pop(0)
+print(list_of_favorites)
 # Reverse your list using .reverse().
-
+list_of_favorites.reverse()
+print(list_of_favorites)
 # Create a list of 3 lists (matrix), and access the middle element.
